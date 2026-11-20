@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Neolution.Abstractions\Neolution.Abstractions.csproj" />
+    <ProjectReference Include="..\Csag.Abstractions\Csag.Abstractions.csproj" />
   </ItemGroup>
 
 </Project>

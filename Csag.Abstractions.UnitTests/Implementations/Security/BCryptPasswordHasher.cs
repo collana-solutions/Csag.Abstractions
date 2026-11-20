@@ -1,6 +1,6 @@
-﻿namespace Neolution.Abstractions.Tests.Implementations.Security
+﻿namespace Csag.Abstractions.Tests.Implementations.Security
 {
-    using Neolution.Abstractions.Security;
+    using Csag.Abstractions.Security;
 
     /// <summary>
     /// Uses BCrypt as a password hashing provider
