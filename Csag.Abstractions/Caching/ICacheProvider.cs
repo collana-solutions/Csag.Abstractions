@@ -1,4 +1,4 @@
-﻿namespace Neolution.Abstractions.Caching
+﻿namespace Csag.Abstractions.Caching
 {
     using System;
 

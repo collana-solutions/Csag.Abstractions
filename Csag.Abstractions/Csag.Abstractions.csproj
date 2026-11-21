@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.2</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Version>2022.2.171322</Version>
+    <!-- Only the major version goes into the assembly version, so .NET Framework consumers need no binding
+         redirect after a minor or patch update. -->
+    <AssemblyVersion>$(Version.Split('.')[0]).0.0.0</AssemblyVersion>
+    <Description>Common abstractions: ICacheProvider&lt;TEnum&gt; with the CacheProvider&lt;TEnum&gt; base class for caches keyed by enum containers, IPasswordHasher and IStringSerializer.</Description>
+    <PackageTags>abstractions caching password-hashing serialization</PackageTags>
+  </PropertyGroup>
+
+</Project>
