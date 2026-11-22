@@ -1,4 +1,4 @@
-﻿namespace Neolution.Abstractions.Serialization
+﻿namespace Csag.Abstractions.Serialization
 {
     /// <summary>
     /// Interface for converting objects to string and vice versa.

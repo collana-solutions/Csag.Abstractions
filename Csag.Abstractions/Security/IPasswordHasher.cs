@@ -1,4 +1,4 @@
-﻿namespace Neolution.Abstractions.Security
+﻿namespace Csag.Abstractions.Security
 {
     /// <summary>
     /// Provides methods to create and validate password hashes.

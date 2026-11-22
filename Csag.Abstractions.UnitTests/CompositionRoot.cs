@@ -1,8 +1,8 @@
-﻿namespace Neolution.Abstractions.Tests
+﻿namespace Csag.Abstractions.Tests
 {
+    using Csag.Abstractions.Security;
+    using Csag.Abstractions.Tests.Implementations.Security;
     using Microsoft.Extensions.DependencyInjection;
-    using Neolution.Abstractions.Security;
-    using Neolution.Abstractions.Tests.Implementations.Security;
     using Neolution.Extensions.DependencyInjection.Abstractions;
 
     /// <inheritdoc />
