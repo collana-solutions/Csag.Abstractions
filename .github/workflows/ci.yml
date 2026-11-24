@@ -100,8 +100,7 @@ jobs:
       - name: Build
         run: dotnet build --configuration Release --no-restore
 
-      # No test step: the solution holds no test project. Csag.Abstractions.UnitTests stays outside it,
-      # because it targets netcoreapp3.1 and needs a package from the private Azure DevOps feed.
+      # No test step: the repository has no test project.
       - name: Pack (smoke test)
         run: dotnet pack --configuration Release --no-build -o ./nupkgs
 
